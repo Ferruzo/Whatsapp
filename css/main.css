@@ -1,1 +1,13 @@
-/*Inserta tu css aqui*/
+body {
+    background-color: #DFDFDF;
+    font-family: Roboto;
+}
+
+header {
+    background-color: #009688;
+    padding-top: 1%;
+}
+
+.main-container {
+    background-color: #EEEEEE;
+}

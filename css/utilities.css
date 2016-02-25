@@ -1,0 +1,29 @@
+.container {
+    width: 90%;
+}
+
+.images {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+.row {
+    margin: 0;
+}
+
+.iconos {
+    color: #828181;
+    font-size: 2rem;
+    float: right;
+    line-height: 40px;
+}
+
+.main-icons-mg {
+    margin-right: 15px;
+}
+
+.pd-5 {
+    padding: 1%;
+}
