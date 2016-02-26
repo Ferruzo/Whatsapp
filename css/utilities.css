@@ -1,29 +1,33 @@
 .container {
-    width: 90%;
+    width: 80%;
 }
 
-.images {
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin: 5px;
+.icons {
+    color: #8A837B;
+    font-size: 1.8rem;
+    line-height: 4rem;
 }
 
-.row {
-    margin: 0;
-}
-
-.iconos {
-    color: #828181;
-    font-size: 2rem;
+.float-right {
     float: right;
-    line-height: 40px;
 }
 
-.main-icons-mg {
-    margin-right: 15px;
+.mg-right {
+    margin-right: 20px;
 }
 
-.pd-5 {
-    padding: 1%;
+.bg-white {
+    background-color: #FEFEFE;
+}
+
+.pd-inbox {
+    padding: 10px 15px;
+}
+
+.border-top {
+    border-top: 1px solid #CDCDCD;
+}
+
+.time {
+    margin-top: -35px;
 }

@@ -5,9 +5,57 @@ body {
 
 header {
     background-color: #009688;
-    padding-top: 1%;
+    padding-top: 15px;
+    height: 100px;
 }
 
-.main-container {
+.main-row {
     background-color: #EEEEEE;
+    padding: 7px 0px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+form {
+    padding: 15px 5px;
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    color: #E0DBD7;
+}
+
+input {
+    width: 100%;
+    padding: 5px 40px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+}
+
+h5 {
+    color: #000;
+    font-weight: normal;
+    margin-left: 50px;
+    line-height: 0.1rem;
+}
+
+p {
+    color: #BABBBE;
+    font-size: 1.1rem;
+}
+
+nav p{
+    margin-left: 50px;
+    margin-bottom: 1px;
+}
+
+header nav .col-lg-4:hover {
+    background-color: rgba(146, 244, 130, 0.24);
 }
