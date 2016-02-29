@@ -1,61 +1,162 @@
-body {
+body{
     background-color: #DFDFDF;
-    font-family: Roboto;
 }
 
-header {
+header{
     background-color: #009688;
-    padding-top: 15px;
-    height: 100px;
+    height: 120px;
+    padding-top: 25px;
 }
 
-.main-row {
+.icons {
+    color: #8A837B;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+}
+
+.mg-right {
+    margin-right: 20px;
+}
+
+.f-r {
+    float: right;
+}
+
+p{  margin-top: -5px;
+    font-size: 12px;
+    display: inline-block;
+    color: #7e7e7e;
+}
+
+#main-row {
     background-color: #EEEEEE;
-    padding: 7px 0px;
 }
 
-img {
-    width: 40px;
-    height: 40px;
-    float: left;
+#main-row2 {
+    background-color: #EEEEEE;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+img{
+    width: 35px;
+    height: 35px;
+    vertical-align: top;
+    margin-top: -5px;
+}
+
+.inbox {
+    padding: 13px 10px;
+    background-color:#FEFEFE;
+    height: 65px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 form {
-    padding: 15px 5px;
     position: relative;
 }
 
 .search {
     position: absolute;
-    top: 24px;
+    top: 15px;
     left: 20px;
     color: #E0DBD7;
 }
 
 input {
     width: 100%;
-    padding: 5px 40px;
+    padding: 10px 40px;
     border: 1px solid #EDEDED;
     border-radius: 5px;
 }
 
-h5 {
-    color: #000;
-    font-weight: normal;
-    margin-left: 50px;
-    line-height: 0.1rem;
+.chat{
+    background-image: url(../image/chat-panel-bg.png);
+    background-color: #EDE9E4;
 }
 
-p {
-    color: #BABBBE;
-    font-size: 1.1rem;
+.time {
+    font-style: normal;
+    font-size: 12px;
+    float: right;
+    margin-top: -5px;
 }
 
-nav p{
-    margin-left: 50px;
-    margin-bottom: 1px;
+span{
+    font-size: 14px;
+    font-weight: bold;
 }
 
-header nav .col-lg-4:hover {
+a .inbox:hover{
     background-color: rgba(146, 244, 130, 0.24);
+}
+
+.chat-boxes {
+    margin: 30px 30px 0px 30px;
+}
+
+.messages {
+    width: 60%;
+    margin: 4px;
+    background-color: #fff;
+    padding: 15px;
+    height:64px;
+    border-radius: 8px;
+}
+
+#answer1{
+   height: 35px;
+   margin-left: 70%;
+   width: 30%;
+   padding: 4px;
+   background-color: #DCF8C6;
+}
+
+#answer2{
+   padding: 4px;
+   height: 35px;
+   margin-left: 75%;
+   width: 25%;
+   background-color: #DCF8C6;
+}
+
+.blue{
+    color: #BBE4F6;
+}
+.pink{
+    color: #EDA8C9;
+}
+.green{
+    color: #A4E1C7;
+}
+.yellow{
+    color: #ECD99C;
+}
+
+#answer-box{
+    background-color: #EEEEEE;
+    margin: 0 auto;
+}
+
+#answer-box input {
+    width: 80%;
+    margin-left: 70px;
+}
+
+#happyface {
+    position: absolute;
+    left: 30px;
+    bottom: 13px;
+    font-size: 2.5rem;
+}
+
+#mic {
+    position: relative;
+    font-size: 2.5rem;
+    top: 4px;
+    left: 20px;
+}
+
+.shadow {
+    box-shadow: 2px 2px 10px grey;
 }

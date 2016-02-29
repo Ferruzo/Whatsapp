@@ -1102,8 +1102,8 @@ a {
 }
 a:hover,
 a:focus {
-  
-  text-decoration: none;
+  color: #23527c;
+  text-decoration: underline;
 }
 a:focus {
   outline: thin dotted;
@@ -1288,7 +1288,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px 21px;
+  margin: 0 0 10px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1581,13 +1581,13 @@ pre code {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
+  
 }
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
 }
 @media (min-width: 768px) {
   .container {
